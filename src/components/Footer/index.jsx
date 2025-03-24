@@ -3,10 +3,12 @@ import donateicon from "../../assets/donateicon.svg"
 import discordicon from "../../assets/discordicon.svg"
 import evolution from "../../assets/evolution.svg"
 import xlogo from "../../assets/xlogo.svg"
+import squiggle from "../../assets/squiggle.svg"
 
 function index() {
   return (
-    <div className="m-6 flex flex-col gap-1 border-t border-white/50 px-4 pt-6 tracking-wide text-white">
+    <div className="m-6 flex flex-col gap-1 px-4 pt-6 tracking-wide text-white">
+      <img src={squiggle} alt="squiggle" className="pb-5 opacity-20" />
       <div className="flex flex-col items-center sm:flex-row sm:justify-between lg:flex-row">
         <div className="inline-flex flex-col">
           <img className="h-10" src={evolution} alt="" />
